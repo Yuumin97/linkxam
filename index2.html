@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<img id="anh" src="./anhphu.jpg">
+<script>
+    // code vào đây
+    let flag=true
+    document.getElementById("anh").style.display="none"
+    while(flag){
+        let nhapTen =prompt('Ai là người crush Lan Anh ^_^','');
+
+        if (nhapTen == 'Phú'||nhapTen=="phú"||nhapTen=="phu"||nhapTen=="Phu") {
+            alert(`Đúng vậy ${nhapTen} đang crush Lan Anh Đấy <3`);
+            flag=false
+        }else {
+            alert('Sai rồi')
+        }
+    }
+    document.write("Anh ấy đây...Đẹp trai chưa ^^")
+    document.getElementById("anh").style.display="block"
+
+
+
+</script>
+</body>
+</html>
